@@ -32,7 +32,7 @@ function create_and_push_manifest() {
 }
 
 # YOu can pass in a repo (such as a test docker repo) or accept the default
-DOCKER_REPO=${1:-balenablocks}
+DOCKER_REPO=${1:-webthingsio}
 VERSION=${2:-$(<VERSION)}
 
 build_and_push_image "aarch64" "linux/arm64" 
